@@ -1,6 +1,10 @@
+> <span style="color:red">**Warning:**</span> This repository is currently under active development and will be constantly updated. Some links or directories may not be available or functional until the respective sessions are completed.
+
+
 # IEEE Introduction to Python Program By JKUAT SB
 
 Welcome to the official repository for the IEEE JKUAT Introduction to Python course! This repository contains all the code examples, exercises, and resources used throughout the course.
+
 
 ## Course Overview
 
