@@ -56,21 +56,28 @@ class Car:
     def reset_number_of_cars(cls):
         cls.number_of_cars = 0
 
+    def __str__(self):
+        return f"{self.make} {self.model} {self.year} {self.color}"
+    
+    def __repr__(self):
+        return f"{self.make} {self.color}"
+    
 
 toyota = Car("Toyota", "Some Model", 2017, "Blue")
-toyota.drive()
-toyota.fuel(5)
-toyota.drive()
-toyota.drive()
-toyota.drive()
-toyota.drive()
-toyota.drive()
-toyota.drive()
+# toyota.drive()
+# toyota.fuel(5)
+# toyota.drive()
+# toyota.drive()
+# toyota.drive()
+# toyota.drive()
+# toyota.drive()
+# toyota.drive()
 
 # del toyota
 Car.reset_number_of_cars()
+print(toyota)
 
-print(Car.number_of_cars)
+# print(Car.number_of_cars)
 
         
 # print("Initial number of cars: ", Car.number_of_cars)
